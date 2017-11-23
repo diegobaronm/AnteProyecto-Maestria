@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.26)  23 NOV 2017 15:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.26)  23 NOV 2017 15:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -715,14 +715,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 234--249
 
  []
 
-[8 <./F3.png (PNG copy)>] [9] [10 <./F4.png (PNG copy)>] [11]
-Overfull \hbox (184.62294pt too wide) in paragraph at lines 281--292
- [][] 
- []
-
-[12] (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-32.def
+[8 <./F3.png (PNG copy)>] [9] [10 <./F4.png (PNG copy)>] [11] [12] [13]
+(/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-32.def
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
-) [13]
+) [14]
 (./title_page_1.aux
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
@@ -732,13 +728,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 14344 strings out of 493029
- 272773 string characters out of 6136234
- 325444 words of memory out of 5000000
- 17594 multiletter control sequences out of 15000+600000
+ 14343 strings out of 493029
+ 272763 string characters out of 6136234
+ 326433 words of memory out of 5000000
+ 17593 multiletter control sequences out of 15000+600000
  11072 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,9n,56p,1238b,596s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,10n,56p,1238b,596s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/tex
@@ -748,10 +744,10 @@ t/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmti12.pfb>
-Output written on title_page_1.pdf (14 pages, 3405674 bytes).
+Output written on title_page_1.pdf (15 pages, 3405932 bytes).
 PDF statistics:
- 96 PDF objects out of 1000 (max. 8388607)
- 64 compressed objects within 1 object stream
+ 99 PDF objects out of 1000 (max. 8388607)
+ 66 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  38 words of extra memory for PDF output out of 10000 (max. 10000000)
 

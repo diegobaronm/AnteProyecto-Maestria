@@ -10,4 +10,4 @@
 \contentsline {subsection}{\numberline {4.2}Objetivos espec\IeC {\'\i }ficos.}{12}
 \contentsline {subsection}{\numberline {4.3}Cronograma.}{12}
 \contentsline {section}{\numberline {5}Infraestructura y recursos.}{13}
-\contentsline {section}{\numberline {6}Bibliograf\IeC {\'\i }a.}{13}
+\contentsline {section}{\numberline {6}Bibliograf\IeC {\'\i }a.}{14}
