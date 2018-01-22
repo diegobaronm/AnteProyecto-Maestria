@@ -115,7 +115,7 @@ Nelson Vanegas \textsc{} % Supervisor's Name
 
 \section{Generalidades del proyecto.}
 
-\textbf{Titulo del proyecto:}\\
+\textbf{Título del proyecto:}\\
 High Level Trigger studies for the detection of dark matter in models with vector like fermions using the CMS detector in the LHC
 \\
 
@@ -138,7 +138,7 @@ Universidad de Antioquia.
 \\
 
 \textbf{Resumen ejecutivo:}\\
-En este trabajo se presenta la propuesta de trabajo del estudiante de maestría Diego Barón. Desde 1930 gracias a las observaciones de las curvas de rotacion de las estrellas en las galaxias se plantea la existencia de la materia oscura 
+En este trabajo se presenta la propuesta de trabajo del estudiante de maestría Diego Barón. Desde 1930 gracias a las observaciones de las curvas de rotacion de las estrellas en las galaxias, se plantea la existencia de la materia oscura. En experimentos como el LHC se colisionan haces de partículas y en estas colisiones en principio se pueden generar las partículas que constituyen la materia oscura en el universo, sin embargo debido a la gran cantidad de datos que toman los detectores como CMS se deben aplicar filtros para aislar los eventos interesantes, en este trabajo pretendemos desarrollar un filtro (path High Level Trigger) adecuado para la búsqueda de materia osucura en el detector CMS en LHC.
 
 
 \newpage
@@ -166,7 +166,7 @@ En este trabajo se presenta la propuesta de trabajo del estudiante de maestría 
 
 
 \section{Marco conceptual.}
-El problema de la materia oscura (DM) es quizás el problema más viejo de la física de partículas, que aún no ha sido satisfactoriamente resuelto, desde 1930 gracias a las observaciones independientes de Lundmark y Zwicky se sabe que el contenido de materia de las galaxias debe ser mayor al que aporta la materia bariónica, en sus experimentos esto se expresaba como el hecho de que las velocidades orbitales del gas y de las estrellas mantiene una tendencia constante respecto a la distancia al centro de la galaxia, en contraposción con lo esperado: que la velocidad decrezca como una función de la distancia. Esto se puede ver en la figura 1.
+El problema de la materia oscura (DM) es quizás el problema más viejo de la física de partículas, que aún no ha sido satisfactoriamente resuelto, desde 1930 gracias a las observaciones independientes de Lundmark y Zwicky se sabe que el contenido de materia de las galaxias debe ser mayor al que aporta la materia bariónica, en sus experimentos esto se expresaba como el hecho de que las velocidades orbitales del gas y de las estrellas mantienen una tendencia constante respecto a la distancia al centro de la galaxia, en contraposción con lo esperado: que la velocidad decrezca como una función de la distancia. Esto se puede ver en la figura 1.
 \\
 \\
 \begin{figure}
@@ -174,7 +174,7 @@ El problema de la materia oscura (DM) es quizás el problema más viejo de la f�
 \includegraphics[width=12cm]{F1.png}
 \caption{\label{fig:frog} Curva de rotacion galáctica para NGC 6503, vemos el perfil de masa del disco y del gas y el perfil de materia oscura necesario para ajustar los datos.}
 \end{figure}
-Vamos a describir como se puede utilizar un detector como el CMS en el LHC para hacer busquedas de posibles candidatos a DM, poniendo especial atención en el High Level Trigger (HLT).
+Vamos a describir como se puede utilizar un detector como el CMS en el LHC para hacer búsquedas de posibles candidatos a DM, poniendo especial atención en el High Level Trigger (HLT).
 
 
 \label{sec:examples}
@@ -202,16 +202,16 @@ El imán del CMS tiene 13 m de largo y 6 m de diametro, es capaz de generar un c
 \\
 \\
 
-Dentro del solenoide se encuentra el Tracker System, un sistema de detección diseñado con dos tecnologías: Pixeles y tiras de silicio, está diseñado para identificar los vertices de las colisiones con una precisión de 9 $\mu$m y una eficiencia del 98\% (que se degrada con la luminosidad integrada), cuando una partícula cargada pasa se crean pares electrón-hueco en el material y esto genera una señal eléctrica que luego es amplificada, este sistema fue construido para ser bastante resistente a la radiación y se espera que dure 10 años.
+Dentro del solenoide se encuentra el Tracker System, un sistema de detección diseñado con dos tecnologías: Pixeles y tiras de silicio, está diseñado para identificar los vértices de las colisiones con una precisión de 9 $\mu$m y una eficiencia del 98\% (que se degrada con la luminosidad integrada), cuando una partícula cargada pasa se crean pares electrón-hueco en el material y esto genera una señal eléctrica que luego es amplificada, este sistema fue construido para ser bastante resistente a la radiación y se espera que dure 10 años.
 \\
 \\
-Luego de este sistema se encuentra el calorímetro electromagnético (ECAL), este fue construido para detener electrones y fotones y medir su energía, el sistema está compuesto por cristales de tungstato de plomo, el cual fue escogido por su corta profundidad de radiación, alta densidad y rápido centelleo (25 ns), la unica desventaja del mismo es su alta sensibilidad de respuesta a la temperatura (2\%/C). Los cristales van perdiendo transparencia con la luminosidad integrada y por tanto esta tiene que ser corregida constantemente por un sistema de láser. El sistema cuenta con 61200 cristales en el barril y 7324 en las tapas del calorímetro.
+Luego de este sistema se encuentra el calorímetro electromagnético (ECAL), este fue construido para detener electrones y fotones y medir su energía, el sistema está compuesto por cristales de tungstato de plomo, el cual fue escogido por su corta profundidad de radiación, alta densidad y rápido centelleo (25 ns), la única desventaja del mismo es su alta sensibilidad de respuesta a la temperatura (2\%/C). Los cristales van perdiendo transparencia con la luminosidad integrada y por tanto esta tiene que ser corregida constantemente por un sistema de láser. El sistema cuenta con 61200 cristales en el barril y 7324 en las tapas del calorímetro.
 \\
 \\
-Para detener y detectar los jets hadrónicos se diseñó el calorímetro hadrónico (HCAL), de este sistema cierta parte se encuentra dentro del solenoide (Hadron Endcap Calorimeter y Hadron Barrel Calorimeter) y fuera están el Outer Calorimeter y el Hadron Forward Calorimeter (estos permiten extender el rango angular de detección), los calorímetros tienen el objetivo de detectar los hadrones y lo hacen de la siguiente manera: el sistema tiene intercalados placas de acero con cristales centelladores, las placas de acero generan las duchas de hadrones y cuando estos pasan por los centelladores, la luz generada es convertida en corrientes eléctricas por fotodiodos híbridos (HPDs), estas corrientes permiten medir la energía de los hadrones. Es importante mencionar que debido a la posición del Forward Calorimeter, este recibe mucha radiación comparado a los otros calorìmetros hadrónicos y esto es debido a que está en la dirección del haz incidente y por tanto, los centelladores fueron construidos de un material centellador más resistente a la radiación como lo es el cuarzo.
+Para detener y detectar los jets hadrónicos se diseñó el calorímetro hadrónico (HCAL), de este sistema cierta parte se encuentra dentro del solenoide (Hadron Endcap Calorimeter y Hadron Barrel Calorimeter) y fuera están el Outer Calorimeter y el Hadron Forward Calorimeter (estos permiten extender el rango angular de detección), los calorímetros tienen el objetivo de detectar los hadrones y lo hacen de la siguiente manera: el sistema tiene intercalados placas de acero con cristales centelladores, las placas de acero generan las cascadas de hadrones y cuando estos pasan por los centelladores, la luz generada es convertida en corrientes eléctricas por fotodiodos híbridos (HPDs), estas corrientes permiten medir la energía de los hadrones. Es importante mencionar que debido a la posición del Forward Calorimeter, este recibe mucha radiación comparado a los otros calorímetros hadrónicos y esto es debido a que está en la dirección del haz incidente, por tanto, los centelladores fueron construidos de un material centellador más resistente a la radiación como lo es el cuarzo.
 \\
 \\
-Finalmente en la parte más externa del detector están ubicados los detectores de muones, esto se debe a que estas partículas tienen un gran poder de penetración. Las cámaras de deteccion están hechas de 3 tecnologías diferentes: Drift Tube Chambers (DT), Cathode Strip Chambers(CSC) y Resistive Plate Chambers (RPC), sin embargo las 3 están basadas en la ionización de gases: al paso de partículas cargadas se generan corrientes de deriva. En la figura 3 se muestra una recreación a un corte transversal del detector.
+Finalmente en la parte más externa del detector están ubicados los detectores de muones, esto se debe a que estas partículas tienen un gran poder de penetración. Las cámaras de detección están hechas de 3 tecnologías diferentes: Drift Tube Chambers (DT), Cathode Strip Chambers(CSC) y Resistive Plate Chambers (RPC), las 3 están basadas en la detección por ionización de gases: al paso de partículas cargadas se generan corrientes de deriva. En la figura 3 se muestra una recreación a un corte transversal del detector.
 
 \begin{figure}
 \centering
@@ -224,7 +224,7 @@ Finalmente en la parte más externa del detector están ubicados los detectores 
 El LHC fue diseñado para tomar los datos de cada colisión que ocurre, cada una está separada en el tiempo por 25 ns, esto produce un flujo de datos de 1 PB/s (PB=Petabyte). Por tanto debe hacerse una selección de eventos en tiempo real, el sistema encargado de hacer esto recibe el nombre de Trigger System y lleva a cabo esta tarea en 2 fases. [2]
 \\
 \\
-La primera de ellas es el Level 1 Trigger (L1), este es un proceso basado en Hardware construido especificamente para analizar los datos provenientes de los sistemas de detección y escoger los eventos más interesantes: aquellos que contienen partículas con gran momento transverso o por ejemplo con combinaciones raras de estados finales. Este filtro reduce el flujo de datos en 2 ordenes de magnitud y dispone de 3.2 $\mu$s para decidir, esto hace que la memoria de almacenamiento deba ser suficiente para guardar los datos de 128  colisiones.
+La primera de ellas es el Level 1 Trigger (L1), este es un proceso basado en Hardware construido específicamente para analizar los datos provenientes de los sistemas de detección y escoger los eventos más interesantes: aquellos que contienen partículas con gran momento transverso o por ejemplo con combinaciones raras de estados finales. Este filtro reduce el flujo de datos en 2 ordenes de magnitud y dispone de 3.2 $\mu$s para decidir, esto hace que la memoria de almacenamiento tenga que ser suficiente para guardar los datos de 128  colisiones.
 \\
 \\
 La segunda fase de la selección se conoce como High Level Trigger (HLT) y es un proceso basado en software, una serie de algoritmos corren en granjas de varios miles de procesadores, los códigos han sido previamente implementados con el objetivo de realizar búsquedas predeterminadas y analizan los datos que salen de L1, el tiempo de decisión de este sistema es de aproximadamente 100 ms, al finalizar la selección el flujo original de datos ha sido reducido por un factor de 5 ordenes de magnitud.
@@ -237,7 +237,7 @@ El modelo estándar de la cosmología predice que solo conocemos como se comport
 Hace 20 años algunas propuestas a candidatos de materia oscura incluían los MACHOS (Massive compact halo objects), que consisten de objetos astrofísicos muy tenues para ser detectados, por ejemplo: agujeros negros, estrellas de neutrones, enanas blancas, etc. Sin embargo experimentos recientes descartan esta posibilidad y por tanto nos dejan solo con los candidatos no bariónicos como posibles explicaciones. [5,6]
 \\
 \\
-Los candidatos más populares actualmente son los WIMPS (weakly interacting massive particles) y los Axiones, ambas son partículas que surgen como propuesta a la solución de otros problemas en física de partículas (SUSY y CP Fuerte respectivamente) y por esto son tan populares, se sabe que la materia oscura no puede ser caliente, es decir, tener velocidades relativistas, debido a que esto implicaría que el universo fuera más homogéneo de lo que es y tampoco puede interactuar eléctricamente. Otros candidatos para materia oscura surgen de modelos más sencillos como el modelo del doblete inerte y pueden ser detectados en aceleradores como muestran recientes trabajos. [7,8] Esta busqueda en particular se basa en la fusión de bosones vectoriales (VBF) ya que el candidato a materia oscura $H^0$ tiene carga débil. En la figura 4 podemos ver los procesos que contribuyen en este tipo de busquedas, como vemos de los estados finales en los diagramas (jets que se detectan y el candidato de materia oscura escapa), las busquedas se basan en energía transversa faltante (MET) asociada a procesos con dos jets con energía transversa $E_T$ alta y detectados en hemisferios diferentes.
+Los candidatos más populares actualmente son los WIMPS (weakly interacting massive particles) y los Axiones, ambas son partículas que surgen como propuesta de solución a otros problemas en física de partículas (SUSY y CP Fuerte respectivamente) y por esto son tan populares, se sabe que la materia oscura no puede ser caliente, es decir, tener velocidades relativistas, debido a que esto implicaría que el universo fuera más homogéneo de lo que es y tampoco puede interactuar eléctricamente. Otros candidatos para materia oscura surgen de modelos más sencillos como el modelo del doblete inerte y pueden ser detectados en aceleradores como muestran recientes trabajos. [7,8] Esta búsqueda en particular se basa en la fusión de bosones vectoriales (VBF) ya que el candidato a materia oscura $H^0$ tiene carga débil. En la figura 4 podemos ver los procesos que contribuyen en este tipo de busquedas, como vemos de los estados finales en los diagramas (jets que se detectan y el candidato de materia oscura escapa), las busquedas se basan en energía transversa faltante (MET) asociada a procesos con dos jets con energía transversa $E_T$ alta y detectados en hemisferios diferentes.
 \begin{figure}
 	\centering
 	\includegraphics[width=15cm]{F4.png}
@@ -245,11 +245,11 @@ Los candidatos más populares actualmente son los WIMPS (weakly interacting mass
 \end{figure}
 \\
 \\
-Las busquedas en aceleradores como el LHC se basan en la busqueda de estados finales de partículas del modelo estándar con energía transversa faltante [7], de esta manera sabríamos que la partícula de materia oscura vivió lo suficiente como para escapar del detector sin decaer, sin embargo esto no dejaría claro que tan estable es la misma para ser materia oscura y por tanto es necesario complementar la información con experimentos astrofísicos. [9]
+Las búsquedas en aceleradores como el LHC se basan en el rastreo de estados finales de partículas del modelo estándar con energía transversa faltante [7], de esta manera sabríamos que la partícula de materia oscura vivió lo suficiente como para escapar del detector sin decaer, sin embargo esto no dejaría claro que tan estable es la misma para ser materia oscura y por tanto es necesario complementar la información con experimentos astrofísicos. [9]
 \newpage
 \section{Problema y pregunta de investigación.}
 
-	Conforme a lo establecido en las secciones anteriores, podemos ver que el problema de encontrar la materia oscura debe resolverse, en parte, mediante la busqueda de la misma en colisionadores, ya hemos visto que modelos como [7,8] motivan busquedas en experimentos como LHC, sin embargo, debido a la cantidad de datos que toman detectores como CMS se deben idear filtros que nos dejen con la información que consideramos relevante a la hora de realizar las busquedas, por tanto nuestra idea es responder: \textbf{¿Qué Hight Level Trigger para el experimento CMS del CERN es pertinente para su uso en el estudio de señales de materia oscura en el detector?}
+	Conforme a lo establecido en las secciones anteriores, podemos ver que el problema de encontrar la materia oscura debe resolverse, en parte, mediante la busqueda de la misma en colisionadores, ya hemos visto que modelos como [7,8] motivan busquedas en experimentos como LHC, sin embargo, debido a la cantidad de datos que toman detectores como CMS se deben idear filtros que nos dejen con la información que consideramos relevante a la hora de realizar las búsquedas, por tanto nuestra idea es responder: \textbf{¿Qué Hight Level Trigger para el experimento CMS del CERN con muones de bajo $p_T$ (monento transverso) es pertinente para su uso en el estudio de señales de materia oscura en el detector?}
 
 
 \newpage
@@ -258,16 +258,16 @@ Las busquedas en aceleradores como el LHC se basan en la busqueda de estados fin
 
 \subsection{Objetivo general.}
 
-Desarrollar un Hight Level Trigger (HLT) para el experimento CMS del CERN pertinente para su uso en el estudio de señales de materia oscura en el detector.
+Desarrollar y validadr un path Hight Level Trigger (HLT) para el experimento CMS del CERN pertinente para su uso en el estudio de señales de materia oscura con muones de bajo $p_T$en el detector.
 
 \subsection{Objetivos específicos.}
 
 \begin{itemize}
 	\item Revisión constante de bibliografía.
 	\item Estudiar la herramienta de construcción de HLT de CMS.
-	\item Estudio del modelo que desea ponerse a prueba, estudianto la señal que quiere detectarse y sus background.
-	\item Construcción del HLT usando la herramienta de CMS.
-	\item Estudiar la eficiencia y otras características de dicho HLT y proponerlo.
+	\item Estudio del modelo que desea ponerse a prueba, estudiando la señal que quiere detectarse y sus background.
+	\item Construcción de un path del HLT usando la herramienta de CMS.
+	\item Estudiar la eficiencia y otras características de dicho path del HLT y proponerlo.
 	\item Aplicar el HLT al menos a un modelo específico, un ejemplo podrían ser los modelos [7,8].
 \end{itemize}
 
@@ -295,6 +295,10 @@ Desarrollar un Hight Level Trigger (HLT) para el experimento CMS del CERN pertin
 \newpage
 
 \section{Infraestructura y recursos.}
+
+\textbf{Recursos computacionales.}
+
+Para utilizar las herramientas de simulación de eventos como MADGRAPH, PYTHIA y DELPHES se necesita acceso a un cluster computacional de mediana capacidad	 50 núcleos y 1 TB de almacenamiento. Para el procesamiento de datos provenientes de LHC se necesita acceso a la red computucional de CERN (grid) y esto solo es posible si se es miembro.
 
 \newpage
 

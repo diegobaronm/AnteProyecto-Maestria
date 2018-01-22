@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.11.14)  25 NOV 2017 22:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.11.14)  22 JAN 2018 17:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**title_page_1.tex
-(./title_page_1.tex
+**Proyecto_Maestria_DiegoBaron.tex
+(./Proyecto_Maestria_DiegoBaron.tex
 LaTeX2e <2016/02/01>
 Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -464,7 +464,8 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Cskip=\skip48
 )
 \c@@todonotes@numberoftodonotes=\count126
-) (./title_page_1.aux
+)
+(./Proyecto_Maestria_DiegoBaron.aux
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
 
@@ -478,7 +479,7 @@ LaTeX Warning: Label `fig:frog' multiply defined.
 LaTeX Warning: Label `fig:frog' multiply defined.
 
 )
-\openout1 = `title_page_1.aux'.
+\openout1 = `Proyecto_Maestria_DiegoBaron.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
 LaTeX Font Info:    ... okay on input line 42.
@@ -570,12 +571,12 @@ Package pdftex.def Info: udea_fcen.jpg used on input line 100.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./udea_fcen.jpg>]
-(./title_page_1.toc
+(./Proyecto_Maestria_DiegoBaron.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
 \tf@toc=\write4
-\openout4 = `title_page_1.toc'.
+\openout4 = `Proyecto_Maestria_DiegoBaron.toc'.
 
  [1]
 Underfull \hbox (badness 10000) in paragraph at lines 118--121
@@ -719,7 +720,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 234--249
 (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-32.def
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 ) [14]
-(./title_page_1.aux
+(./Proyecto_Maestria_DiegoBaron.aux
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
 )
@@ -729,12 +730,12 @@ LaTeX Warning: There were multiply-defined labels.
  ) 
 Here is how much of TeX's memory you used:
  14342 strings out of 493029
- 272754 string characters out of 6136233
+ 272930 string characters out of 6136233
  327435 words of memory out of 5000000
  17592 multiletter control sequences out of 15000+600000
  11072 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,10n,56p,1236b,596s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,10n,56p,1252b,596s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/tex
@@ -744,7 +745,7 @@ t/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmti12.pfb>
-Output written on title_page_1.pdf (15 pages, 3407378 bytes).
+Output written on Proyecto_Maestria_DiegoBaron.pdf (15 pages, 3407370 bytes).
 PDF statistics:
  99 PDF objects out of 1000 (max. 8388607)
  66 compressed objects within 1 object stream
