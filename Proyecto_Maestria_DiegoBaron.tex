@@ -62,7 +62,7 @@
 %----------------------------------------------------------------------------------------
 
 \HRule \\[0.4cm]
-{ \huge \bfseries High Level Trigger studies for the detection of dark matter in models with vector like fermions using the CMS detector in the LHC}\\[0.4cm] % Title of your document
+{ \huge \bfseries High Level Trigger studies for the detection of dark matter in models with vector like fermions using the CMS detector at the LHC}\\[0.4cm] % Title of your document
 \HRule \\[1.5cm]
  
 %----------------------------------------------------------------------------------------
@@ -113,10 +113,10 @@ Nelson Vanegas \textsc{} % Supervisor's Name
 
 
 
-\section{Generalidades del proyecto.}
+\section{Generalidades del proyecto}
 
 \textbf{Título del proyecto:}\\
-High Level Trigger studies for the detection of dark matter in models with vector like fermions using the CMS detector in the LHC
+High Level Trigger studies for the detection of dark matter in models with vector like fermions using the CMS detector at the LHC
 \\
 
 \textbf{Línea de investigación:}\\
@@ -138,7 +138,7 @@ Universidad de Antioquia.
 \\
 
 \textbf{Resumen ejecutivo:}\\
-En este trabajo se presenta la propuesta de trabajo del estudiante de maestría Diego Barón. Desde 1930 gracias a las observaciones de las curvas de rotacion de las estrellas en las galaxias, se plantea la existencia de la materia oscura. En experimentos como el LHC se colisionan haces de partículas y en estas colisiones en principio se pueden generar las partículas que constituyen la materia oscura en el universo, sin embargo debido a la gran cantidad de datos que toman los detectores como CMS se deben aplicar filtros para aislar los eventos interesantes, en este trabajo pretendemos desarrollar un filtro (path High Level Trigger) adecuado para la búsqueda de materia osucura en el detector CMS en LHC.
+En este trabajo se presenta la propuesta de trabajo del estudiante de maestría Diego Alberto Barón Moreno. Desde 1930, gracias a las observaciones de las curvas de rotación de las estrellas en las galaxias, se plantea la existencia de la materia oscura. En un acelerador de partículas como el Gran Colisionador de Hadrones (LHC) se colisionan haces de protones e iones de plomo y en estas colisiones, en principio, se pueden generar las partículas que constituyen la materia oscura en el universo. Sin embargo, debido a la gran cantidad de datos que toman los detectores del LHC, como el Solenoide Compacto de Muones (CMS), se deben aplicar filtros para aislar los eventos interesantes. En este trabajo proponemos desarrollar un filtro de eventos de alto nivel (en inglés path High Level Trigger), es decir: una serie de algoritmos de selección de eventos, que se ejecutan luego de la obtención de datos en el detector CMS. El objetivo es que este path High Level Trigger (HLT path) sea adecuado para la búsqueda de materia osucura (DM) en el detector CMS en el LHC.
 
 
 \newpage
@@ -165,8 +165,9 @@ En este trabajo se presenta la propuesta de trabajo del estudiante de maestría 
 
 
 
-\section{Marco conceptual.}
-El problema de la materia oscura (DM) es quizás el problema más viejo de la física de partículas, que aún no ha sido satisfactoriamente resuelto, desde 1930 gracias a las observaciones independientes de Lundmark y Zwicky se sabe que el contenido de materia de las galaxias debe ser mayor al que aporta la materia bariónica, en sus experimentos esto se expresaba como el hecho de que las velocidades orbitales del gas y de las estrellas mantienen una tendencia constante respecto a la distancia al centro de la galaxia, en contraposción con lo esperado: que la velocidad decrezca como una función de la distancia. Esto se puede ver en la figura 1.
+\section{Marco conceptual}
+El problema de la materia oscura (DM) es el problema más viejo de la física de partículas, que aún no ha sido satisfactoriamente resuelto. Desde 1930 gracias a las observaciones independientes de Lundmark y Zwicky \cite{Zwi,Lun} se sabe que el contenido de materia de las galaxias debe ser mayor al que aporta la materia bariónica. En sus experimentos ellos encontraron que las velocidades orbitales del gas y de las estrellas mantienen una tendencia constante respecto a la distancia al centro de la galaxia.
+ Esto está en contraposción con lo que se espera al aplicar las leyes de Newton de la gravitación: que la velocidad decrezca como una función de la distancia. Esto se puede ver en la figura 1.
 \\
 \\
 \begin{figure}
@@ -174,17 +175,17 @@ El problema de la materia oscura (DM) es quizás el problema más viejo de la f�
 \includegraphics[width=12cm]{F1.png}
 \caption{\label{fig:frog} Curva de rotacion galáctica para NGC 6503, vemos el perfil de masa del disco y del gas y el perfil de materia oscura necesario para ajustar los datos.}
 \end{figure}
-Vamos a describir como se puede utilizar un detector como el CMS en el LHC para hacer búsquedas de posibles candidatos a DM, poniendo especial atención en el High Level Trigger (HLT).
+A continuación vamos a describir los componentes fundamentales del detector CMS en el LHC, poniendo especial atención en el sitema High Level Trigger.
 
 
 \label{sec:examples}
 
-\subsection{CMS en el LHC.}
+\subsection{CMS en el LHC}
 
-El Gran Colisionador de Hadrones (LHC) es el acelerador de partículas más grande y energético operado actualmente por la Organización Europea para la Investigación Nuclear (CERN), el LHC usa el mismo tunel de 27 km, cavado en promedio a 100 m de profundidad, del antiguo Gran Colisionador Electrón-Positrón (LEP). EL LHC es capaz de colisionar protones e iones de Plomo con una energía por haz de 7 TeV, sin embargo a día de hoy se hace a 6.5 TeV.
+El Gran Colisionador de Hadrones es el acelerador de partículas más grande y energético operado actualmente por la Organización Europea para la Investigación Nuclear (CERN). El LHC usa el mismo tunel de 27 km, cavado en promedio a 100 m de profundidad, del antiguo Gran Colisionador Electrón-Positrón (LEP). EL LHC es capaz de colisionar protones con una energía por haz de 7 TeV, sin embargo a día de hoy se hace a 6.5 TeV.
 \\
 
-En el LHC están ubicados 4 experimentos principales: LHC-b, ALICE, ATLAS y CMS. Estos últimos dos son detectores de proposito general, es decir, fueron diseñados para detectar señales de nueva física en estados finales de partículas como electrones, fotones, muones y jets de hadrones. El LHC esta dividido en dos partes: la cadena de aceleración y el anillo principal. En la cadena de aceleración los protones son extraídos y pasados por una serie de aceleradores que los llevan hasta una energía de 450 GeV, momento en que son inyectados en el anillo principal. Este está compuesto de dos anillos que llevan los protones en direcciones opuestas,los anillos están construidos por 2090 imanes de 15 m, enfriados a 1.9 K y con un vacío de $10^{-9}$mbar, cada uno capaz de producir un campo magnético de 8,33 T. Además de estos imanes dipolares, el LHC también cuenta con 520 cuadrupolos, 2464 sextupolos y 1232 octupolos usados para colimar el haz. [1]
+En el LHC están ubicados 4 experimentos principales: LHC-b, ALICE, ATLAS y CMS. Estos últimos dos son detectores de proposito general, es decir, fueron diseñados para detectar señales de nueva física en estados finales de partículas como electrones, fotones, muones y jets de hadrones. El LHC esta dividido en dos partes: la cadena de aceleración y el anillo principal. En la cadena de aceleración los protones son extraídos y pasados por una serie de aceleradores que los llevan hasta una energía de 450 GeV, momento en que son inyectados en el anillo principal. El anillo principal está compuesto de dos anillos que llevan los protones en direcciones opuestas, los anillos están construidos por 2090 imanes dipolares y superconductores de 15 m de largo, enfriados a 1.9 K y con un vacío de $10^{-9}$mbar; cada uno capaz de producir un campo magnético de 8,33 T. Además de estos imanes dipolares, el LHC también cuenta con 520 cuadrupolos, 2464 sextupolos y 1232 octupolos usados para colimar el haz \cite{Jose}. 
 \\
 \\
 
@@ -302,10 +303,20 @@ Para utilizar las herramientas de simulación de eventos como MADGRAPH, PYTHIA y
 
 \newpage
 
-\section{Bibliografía.}
 
-[1] Search for a vector-like quark T decaying into top+Higgs in single production mode in full hadronic final state using CMS data collected at 8 TeV, José David Ruiz.
-\vspace{0.5cm}
+
+\begin{thebibliography}{X}
+\bibitem{Zwi} \textsc{Zwicky,F.} ,
+\textit{Die Rotverschiebung von extragalaktischen Nebeln}, Helvetica Physica Acta, Vol. 6, p. 110-127, 1933.
+\bibitem{Lun} \textsc{Lundmark,K.},
+\textit{Über die Bestimmung der Entfernungen, Dimensionen, Massen und Dichtigkeit fur die nächstgelegenen anagalacktischen Sternsysteme},
+,Lund Medd. 125, 1, 1930.
+\bibitem{Jose} \textsc{José D. Ruiz-Álvarez} ,
+\textit{Search for a vector-like quark T decaying into top+Higgs in single production mode in full hadronic final state using CMS data collected at 8 TeV}, CERN-THESIS, 2016.
+
+\end{thebibliography}
+
+
 
 [2] The CMS trigger system, CMS collaboration.
 

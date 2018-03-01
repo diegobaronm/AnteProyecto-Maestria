@@ -1,7 +1,7 @@
 \select@language {spanish}
-\contentsline {section}{\numberline {1}Generalidades del proyecto.}{2}
-\contentsline {section}{\numberline {2}Marco conceptual.}{3}
-\contentsline {subsection}{\numberline {2.1}CMS en el LHC.}{3}
+\contentsline {section}{\numberline {1}Generalidades del proyecto}{2}
+\contentsline {section}{\numberline {2}Marco conceptual}{3}
+\contentsline {subsection}{\numberline {2.1}CMS en el LHC}{3}
 \contentsline {subsection}{\numberline {2.2}Sistema de Trigger.}{7}
 \contentsline {subsection}{\numberline {2.3}Materia oscura en colisionadores.}{9}
 \contentsline {section}{\numberline {3}Problema y pregunta de investigaci\IeC {\'o}n.}{11}
@@ -10,4 +10,3 @@
 \contentsline {subsection}{\numberline {4.2}Objetivos espec\IeC {\'\i }ficos.}{12}
 \contentsline {subsection}{\numberline {4.3}Cronograma.}{12}
 \contentsline {section}{\numberline {5}Infraestructura y recursos.}{13}
-\contentsline {section}{\numberline {6}Bibliograf\IeC {\'\i }a.}{14}
