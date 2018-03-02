@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.26)  1 MAR 2018 18:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.26)  1 MAR 2018 22:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -657,66 +657,72 @@ Underfull \hbox (badness 10000) in paragraph at lines 202--205
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 206--216
+Underfull \hbox (badness 10000) in paragraph at lines 206--219
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 206--216
+Underfull \hbox (badness 10000) in paragraph at lines 206--219
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 206--216
+Underfull \hbox (badness 10000) in paragraph at lines 206--219
 
  []
 
-[5] [6 <./F2.png>] <F3.png, id=40, 1049.33206pt x 542.025pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 206--219
+
+ []
+
+[5] [6 <./F2.png>] [7] <F3.png, id=43, 1049.33206pt x 542.025pt>
 File: F3.png Graphic file (type png)
  <use F3.png>
-Package pdftex.def Info: F3.png used on input line 219.
+Package pdftex.def Info: F3.png used on input line 222.
 (pdftex.def)             Requested size: 426.79134pt x 220.45349pt.
 
-Overfull \hbox (36.79134pt too wide) in paragraph at lines 219--220
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 222--223
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 225--232
+Underfull \hbox (badness 10000) in paragraph at lines 228--235
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 225--232
+Underfull \hbox (badness 10000) in paragraph at lines 228--235
 
  []
 
-[7] <F4.png, id=44, 1314.55327pt x 302.1501pt>
+[8 <./F3.png (PNG copy)>] <F4.png, id=47, 1314.55327pt x 302.1501pt>
 File: F4.png Graphic file (type png)
- <use F4.png>
-Package pdftex.def Info: F4.png used on input line 244.
+
+<use F4.png>
+Package pdftex.def Info: F4.png used on input line 247.
 (pdftex.def)             Requested size: 426.79134pt x 98.09618pt.
 
-Overfull \hbox (36.79134pt too wide) in paragraph at lines 244--245
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 247--248
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 235--250
+Underfull \hbox (badness 10000) in paragraph at lines 238--253
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 235--250
+Underfull \hbox (badness 10000) in paragraph at lines 238--253
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 235--250
+Underfull \hbox (badness 10000) in paragraph at lines 238--253
 
  []
 
-[8 <./F3.png (PNG copy)>] [9] [10 <./F4.png (PNG copy)>] [11] [12] [13]
+[9] [10 <./F4.png (PNG copy)>] [11] [12] [13]
 (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-32.def
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 ) [14]
@@ -729,10 +735,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 14346 strings out of 493029
- 272954 string characters out of 6136234
- 327445 words of memory out of 5000000
- 17596 multiletter control sequences out of 15000+600000
+ 14355 strings out of 493029
+ 273068 string characters out of 6136234
+ 327449 words of memory out of 5000000
+ 17605 multiletter control sequences out of 15000+600000
  11072 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,10n,56p,1252b,596s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -745,7 +751,7 @@ t/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmti12.pfb>
-Output written on Proyecto_Maestria_DiegoBaron.pdf (15 pages, 3415455 bytes).
+Output written on Proyecto_Maestria_DiegoBaron.pdf (15 pages, 3416792 bytes).
 PDF statistics:
  99 PDF objects out of 1000 (max. 8388607)
  66 compressed objects within 1 object stream
