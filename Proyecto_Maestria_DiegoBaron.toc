@@ -4,9 +4,9 @@
 \contentsline {subsection}{\numberline {2.1}CMS en el LHC}{3}
 \contentsline {subsection}{\numberline {2.2}Sistema de Trigger}{8}
 \contentsline {subsection}{\numberline {2.3}Materia oscura en colisionadores.}{9}
-\contentsline {section}{\numberline {3}Problema y pregunta de investigaci\IeC {\'o}n.}{11}
-\contentsline {section}{\numberline {4}Objetivos y cronograma.}{12}
-\contentsline {subsection}{\numberline {4.1}Objetivo general.}{12}
-\contentsline {subsection}{\numberline {4.2}Objetivos espec\IeC {\'\i }ficos.}{12}
+\contentsline {section}{\numberline {3}Problema y pregunta de investigaci\IeC {\'o}n}{11}
+\contentsline {section}{\numberline {4}Objetivos y cronograma}{12}
+\contentsline {subsection}{\numberline {4.1}Objetivo general}{12}
+\contentsline {subsection}{\numberline {4.2}Objetivos espec\IeC {\'\i }ficos}{12}
 \contentsline {subsection}{\numberline {4.3}Cronograma.}{12}
 \contentsline {section}{\numberline {5}Infraestructura y recursos.}{13}
