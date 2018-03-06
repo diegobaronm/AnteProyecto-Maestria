@@ -181,14 +181,12 @@ A continuación vamos a describir los componentes fundamentales del detector CMS
 \label{sec:examples}
 
 \subsection{CMS en el LHC}
-
 El Gran Colisionador de Hadrones es el acelerador de partículas más grande y energético operado actualmente por la Organización Europea para la Investigación Nuclear (CERN). El LHC usa el mismo tunel de 27 km, cavado en promedio a 100 m de profundidad, del antiguo Gran Colisionador Electrón-Positrón (LEP). EL LHC es capaz de colisionar protones con una energía por haz de 7 TeV, sin embargo a día de hoy se hace a 6.5 TeV.
 \\
-
+\\
 En el LHC están ubicados 4 experimentos principales: LHC-b \cite{Alves:2008zz}, ALICE \cite{Aamodt:2008zz}, ATLAS \cite{Aad:2008zzm} y CMS. Estos últimos dos son detectores de proposito general, es decir, fueron diseñados para detectar señales de nueva física en estados finales de partículas como electrones, fotones, muones y jets de hadrones. El LHC esta dividido en dos partes: la cadena de aceleración y el anillo principal. En la cadena de aceleración los protones son extraídos y pasados por una serie de aceleradores que los llevan hasta una energía de 450 GeV, momento en que son inyectados en el anillo principal. El anillo principal está compuesto de dos anillos que llevan los protones en direcciones opuestas, los anillos están construidos por 2090 imanes dipolares y superconductores de 15 m de largo, enfriados a 1.9 K y con un vacío de $10^{-9}$mbar; cada uno capaz de producir un campo magnético de 8,33 T. Además de estos imanes dipolares, el LHC también cuenta con 520 cuadrupolos, 2464 sextupolos y 1232 octupolos usados para colimar el haz \cite{RuizAlvarez:2016mhn}. 
 \\
 \\
-
 El Solenoide Compacto de Muones (CMS) es en tamaño, el segundo experimento más grande del LHC despues de ATLAS. CMS debe su nombre ``solenoide compacto'' a que varios de los sistemas de detección se encuentran dentro de su gran imán superconductor, capaz de producir un campo magnético uniforme en su interior de 3.8 T. Y ``solenoide de muones'' debido a que posee un sistema de detección de muones muy preciso y eficiente. CMS es un detector con forma cilíndrica, mide aproximadamente 30 m de largo por 15 m de diámetro y pesa 14000 Ton (esto lo convierte en el experimento más pesado del LHC). La colaboración se compone de aproximadamente 3500 personas de 182 institutos de física en 41 países. Una representación tres dimensional del detector se puede ver en la figura 2.
 \\
 \\
@@ -197,12 +195,24 @@ El Solenoide Compacto de Muones (CMS) es en tamaño, el segundo experimento más
 \includegraphics[width=15cm]{F2.png}
 \caption{\label{fig:frog} Diseño interno del detector CMS \cite{Bayatian:2006nff}.}
 \end{figure}
-
-
+En este punto es importante describir el sistema de coordenadas que se utiliza en CMS \cite{RuizAlvarez:2016mhn}. El origen de coordenadas está en el centro del detector, en el denominado ``punto de interacción''. El eje Z está definido en dirección del haz, apuntando hacia las montañas Jura. El eje Y está definido en dirección del cenit y el eje X positivo apuntando hacia el centro del anillo del LHC. Se define el ángulo $\phi$ en el plano x-y, desde x hacia y; el ángulo $\theta$ se define en el plano z-y, desde z hacia y. Esto se puede ver en la figura 3.
+\\
+\\
+\begin{figure}
+	\centering
+	\includegraphics[width=15cm]{F5.png}
+	\caption{\label{fig:frog} Sistema de coordenadas utilizado en CMS \cite{RuizAlvarez:2016mhn}.}
+\end{figure}
+En física de partículas experimental es usual trabajar con invariantes relativistas, es por esto que se define:
+\begin{equation}
+	\eta=-\ln\left(\tan\left(\frac{\theta}{2}\right) \right).
+\end{equation} 	
+Si $\vec{p}$ es el momento y $E$ la energía de una partícula se define: $p_L$ (momento longitudinal) como la proyección del momento en direccion de Z. Además, se define la distancia radial en el plano x-y, el plano transversal al haz, donde se llama a la proyeccioón del momento lineal de la partícula en este transversal como momento transverso ($p_T$).  
+\\
+\\
 El solenoide superconductor del experimento CMS tiene 13 m de largo y 6 m de diametro. Es capaz de generar un campo magnético uniforme de 4 T en su interior y está construido por 4 capas de espiras de Niobio-Titanio (NbTi), enfriado a una temoperatura de 4.45K, esto último para que se alcance el estado superconductor. Este solenoide superconductor está rodeado por 5 barriles y 3 discos de hierro, que tienen el objetivo de devolver el campo magnético generando un campo exterior de 2 T.  Esta configuración de campos magnéticos es responsable de curvar las trayectorias de las partículas cargadas.
 \\
 \\
-
 Dentro del solenoide se encuentra el sistema de reconstrucción de trazas (Tracker System), un sistema de detección diseñado con dos tecnologías: pixeles y tiras de silicio. El tracker system está diseñado para identificar los vértices de las colisiones con una precisión de 9 $\mu$m y una eficiencia del 98\%, esta eficiencia se degrada con el tiempo debido a los daños por radiación que sufren los materiales. Cuando una partícula cargada pasa por este sistema, se crean pares electrón-hueco en el material y esto genera una señal eléctrica que luego es amplificada. Este sistema fue construido para ser bastante resistente a la radiación y se espera que dure 10 años.
 \\
 \\
@@ -216,7 +226,6 @@ Para detener y detectar los jets hadrónicos se diseñó el calorímetro hadrón
 \\
 \\
 Finalmente en la parte más externa del detector están ubicados los detectores de muones, esto se debe a que estas partículas tienen un gran poder de penetración. Las cámaras de detección están hechas de 3 tecnologías diferentes: Drift Tube Chambers (DT), Cathode Strip Chambers(CSC) y Resistive Plate Chambers (RPC). Las 3 están basadas en la detección por ionización de gases: al paso de partículas cargadas se generan corrientes de deriva. En la figura 3 se muestra una recreación a un corte transversal del detector.
-
 \begin{figure}
 \centering
 \includegraphics[width=15cm]{F3.png}
@@ -244,19 +253,17 @@ Hace 20 años algunas propuestas a candidatos de materia oscura incluían los MA
 Los candidatos más populares actualmente son los WIMPS (Weakly Interacting Massive ParticleS) y los Axiones. Ambas son partículas que surgen como propuesta de solución a otros problemas en física de partículas: Supersimetría (SUSY) \cite{SUSY} y simetría Carga-Paridad en interacciones fuertes (Strong CP) \cite{StrongCP}, respectivamente, y por esto son tan populares. Se sabe que la materia oscura no puede ser caliente, es decir, tener velocidades relativistas, debido a que esto implicaría que el universo debería ser más homogéneo de lo que es. Y tampoco puede interactuar eléctricamente, ya que interaccionaría con el gas interestelar. 
 \\
 \\
-Otros candidatos para materia oscura surgen de modelos más sencillos como el modelo del doblete inerte y pueden ser detectados en aceleradores como muestran recientes trabajos [7,8]. Esta búsqueda en particular se basa en la fusión de bosones vectoriales (VBF) ya que el candidato a materia oscura $H^0$ tiene carga débil. En la figura 4 podemos ver los procesos que contribuyen en este tipo de busquedas, como vemos de los estados finales en los diagramas (jets que se detectan y el candidato de materia oscura escapa), las busquedas se basan en energía transversa faltante (MET) asociada a procesos con dos jets con energía transversa $E_T$ alta y detectados en hemisferios diferentes.
+El HLT path que queremos proponer responde a una necesidad específica: búsqueda de señales de nueva física en modelos del tipo \textit{Singlet-Doublet Fermion Dark Matter} (SDFDM)\cite{1475-7516-2016-03-048}. Uno de los posibles procesos en este tipo de modelos se puede ver en la figura 5. Este proceso tiene en los estados finales: jets , un par de muones y partículas de materia oscura que escaparían del detector y por tanto se verían como energía transversa faltante (MET). Adicionalmente, si la masas de los fermiones $f$ y $\chi$ están muy degeneradas (tienen valores cercanos), los muones tendrán poco momento lineal y por tanto bajo $p_T$. Este tipo de señal es conocida como Fermiones Vectoriales (VLF) de espectro comprimido (CS). En este caso debido al bajo $p_T$ de los muones se espera que uno de ellos no sea reconstruído debido a la eficiencia del detector para detectar muones de bajo momento transversal \cite{Chatrchyan:2012xi}. Así el HLT path debe ser diseñado para detectar: un solo muón con bajo $p_T$ y además que la MET asociada a los objetos reconstruídos en el evento sea pequeña.
 \begin{figure}
-	\centering
-	\includegraphics[width=15cm]{F4.png}
-	\caption{\label{fig:frog} Diagramas de Feynman que contribuyen a pp$\rightarrow H^0H^0 jj$. El punto en la cuarta figura denota el acople entre el Higgs del modelo estándar y los gluones.}
+ 	\centering
+ 	\includegraphics[width=13cm]{F6.png}
+ 	\caption{\label{fig:frog} Proceso posible en modelos SDFDM, con un par de muones y jets en los estados finales.}
 \end{figure}
-\\
-\\
-Las búsquedas en aceleradores como el LHC se basan en el rastreo de estados finales de partículas del modelo estándar con energía transversa faltante [7], de esta manera sabríamos que la partícula de materia oscura vivió lo suficiente como para escapar del detector sin decaer, sin embargo esto no dejaría claro que tan estable es la misma para ser materia oscura y por tanto es necesario complementar la información con experimentos astrofísicos. [9]
+
 \newpage
 \section{Problema y pregunta de investigación}
 
-	Conforme a lo establecido en las secciones anteriores, podemos ver que el problema de encontrar la materia oscura debe resolverse, en parte, mediante la busqueda de la misma en colisionadores. Ya hemos visto que modelos como [7,8] motivan busquedas en experimentos como LHC, sin embargo, debido a la cantidad de datos que toman detectores como CMS se deben idear filtros que nos dejen con la información que consideramos relevante a la hora de realizar las búsquedas, por tanto nuestra idea es responder: \textbf{¿Qué Hight Level Trigger para el experimento CMS del CERN con muones de bajo $p_T$ (monento transverso) es pertinente para su uso en el estudio de señales de materia oscura en el detector?}
+	Conforme a lo establecido en las secciones anteriores, podemos ver que el problema de encontrar la materia oscura debe resolverse, en parte, mediante la busqueda de la misma en colisionadores. Ya hemos visto que modelos como \cite{1475-7516-2016-03-048} motivan busquedas en experimentos como LHC, sin embargo, debido a la cantidad de datos que toman detectores como CMS se deben idear filtros que nos dejen con la información que consideramos relevante a la hora de realizar las búsquedas. Por tanto nuestra idea es responder: \textbf{¿Qué Hight Level Trigger para el experimento CMS del CERN con muones de bajo $p_T$ (monento transverso) es pertinente para su uso en el estudio de señales de materia oscura en el detector?}
 
 
 \newpage
@@ -273,7 +280,7 @@ Desarrollar y validar un path Hight Level Trigger (HLT) para el experimento CMS 
 	\item Estudio del modelo que desea ponerse a prueba, estudiando la señal que quiere detectarse y sus backgrounds.
 	\item Construcción de un path del HLT usando la herramienta de CMS.
 	\item Estudiar la eficiencia y otras características de dicho path del HLT y proponerlo.
-	\item Aplicar el HLT al menos a un modelo específico, un ejemplo podrían ser los modelos [7,8].
+	\item Aplicar el HLT al menos a un modelo específico, un ejemplo podría ser el modelo \cite{1475-7516-2016-03-048}.
 \end{itemize}
 
 
@@ -296,7 +303,6 @@ Desarrollar y validar un path Hight Level Trigger (HLT) para el experimento CMS 
 	\end{tabular}
 }
 \end{table}
-
 \newpage
 
 \section{Infraestructura y recursos.}
@@ -308,19 +314,7 @@ Para utilizar las herramientas de simulación de eventos como MADGRAPH, PYTHIA y
 \newpage
 
 
-\vspace{0.5cm}
-
-[7] Vector Boson Fusion in the Inert Doublet Model, Bhaskar Dutta, Guillermo Palacio, Diego Restrepo, José D. Ruiz.
-
-\vspace{0.5cm}
-
-[8] Andres G. Delannoy et al., “Probing Dark Matter at the LHC using Vector Boson Fusion
-Processes,” Phys. Rev. Lett. 111, 061801 (2013).
-
-\vspace{0.5cm}
-
-[9] Review of Dark Matter searches at colliders, Sarah Alam Malik.
-
 \bibliography{biblibo}
 \bibliographystyle{ieeetr}
+
 \end{document}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.11.14)  3 MAR 2018 16:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.26)  5 MAR 2018 22:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -478,6 +478,9 @@ LaTeX Warning: Label `fig:frog' multiply defined.
 
 LaTeX Warning: Label `fig:frog' multiply defined.
 
+
+LaTeX Warning: Label `fig:frog' multiply defined.
+
 )
 \openout1 = `Proyecto_Maestria_DiegoBaron.aux'.
 
@@ -615,123 +618,120 @@ Underfull \hbox (badness 10000) in paragraph at lines 169--179
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 185--187
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 188--191
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 188--191
-
- []
-
-[3] [4 <./F1.png (PNG copy)>] <F2.png, id=29, 3189.9175pt x 2253.41875pt>
+<F2.png, id=21, 3189.9175pt x 2253.41875pt>
 File: F2.png Graphic file (type png)
-
-<use F2.png>
-Package pdftex.def Info: F2.png used on input line 197.
+ <use F2.png>
+Package pdftex.def Info: F2.png used on input line 195.
 (pdftex.def)             Requested size: 426.79134pt x 301.48204pt.
 
-Overfull \hbox (36.79134pt too wide) in paragraph at lines 197--198
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 195--196
+ [][] 
+ []
+
+<F5.png, id=23, 1414.28375pt x 814.04124pt>
+File: F5.png Graphic file (type png)
+ <use F5.png>
+Package pdftex.def Info: F5.png used on input line 203.
+(pdftex.def)             Requested size: 426.79134pt x 245.65512pt.
+
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 203--204
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 192--200
+Underfull \hbox (badness 10000) in paragraph at lines 184--207
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 202--205
+Underfull \hbox (badness 10000) in paragraph at lines 184--207
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 202--205
+Underfull \hbox (badness 10000) in paragraph at lines 184--207
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 206--219
+Underfull \hbox (badness 10000) in paragraph at lines 184--207
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 206--219
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 206--219
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 206--219
-
- []
-
-[5] [6 <./F2.png>] [7] <F3.png, id=43, 1049.33206pt x 542.025pt>
+[3] [4 <./F1.png (PNG copy)>] <F3.png, id=32, 1049.33206pt x 542.025pt>
 File: F3.png Graphic file (type png)
- <use F3.png>
-Package pdftex.def Info: F3.png used on input line 222.
+
+<use F3.png>
+Package pdftex.def Info: F3.png used on input line 231.
 (pdftex.def)             Requested size: 426.79134pt x 220.45349pt.
 
-Overfull \hbox (36.79134pt too wide) in paragraph at lines 222--223
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 231--232
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 228--235
+Underfull \hbox (badness 10000) in paragraph at lines 209--234
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 228--235
-
- []
-
-[8 <./F3.png (PNG copy)>] <F4.png, id=47, 1314.55327pt x 302.1501pt>
-File: F4.png Graphic file (type png)
-
-<use F4.png>
-Package pdftex.def Info: F4.png used on input line 250.
-(pdftex.def)             Requested size: 426.79134pt x 98.09618pt.
-
-Overfull \hbox (36.79134pt too wide) in paragraph at lines 250--251
- [][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 238--256
+Underfull \hbox (badness 10000) in paragraph at lines 209--234
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 238--256
+Underfull \hbox (badness 10000) in paragraph at lines 209--234
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 238--256
+Underfull \hbox (badness 10000) in paragraph at lines 209--234
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 238--256
+Underfull \hbox (badness 10000) in paragraph at lines 209--234
 
  []
 
-[9] [10 <./F4.png (PNG copy)>] [11] [12] [13]
-(/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-32.def
-File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
-)
-(./Proyecto_Maestria_DiegoBaron.bbl [14]) [15]
+
+Underfull \hbox (badness 10000) in paragraph at lines 209--234
+
+ []
+
+[5] [6 <./F2.png>] [7 <./F5.png>] [8]
+Underfull \hbox (badness 10000) in paragraph at lines 237--244
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 237--244
+
+ []
+
+[9 <./F3.png (PNG copy)>] <F6.png, id=54, 839.85347pt x 596.61191pt>
+File: F6.png Graphic file (type png)
+
+<use F6.png>
+Package pdftex.def Info: F6.png used on input line 259.
+(pdftex.def)             Requested size: 369.88582pt x 262.75584pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 247--262
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 247--262
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 247--262
+
+ []
+
+[10] [11 <./F6.png (PNG copy)>] [12] [13] [14]
+(./Proyecto_Maestria_DiegoBaron.bbl [15]) [16]
 (./Proyecto_Maestria_DiegoBaron.aux
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
@@ -741,26 +741,27 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 14378 strings out of 493029
- 273475 string characters out of 6136233
- 327496 words of memory out of 5000000
- 17625 multiletter control sequences out of 15000+600000
+ 14139 strings out of 493029
+ 270794 string characters out of 6136234
+ 330504 words of memory out of 5000000
+ 17388 multiletter control sequences out of 15000+600000
  11072 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,10n,56p,1170b,596s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,10n,56p,1184b,596s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmti12.pfb>
-Output written on Proyecto_Maestria_DiegoBaron.pdf (16 pages, 3416095 bytes).
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmti12.pfb>
+Output written on Proyecto_Maestria_DiegoBaron.pdf (17 pages, 3701836 bytes).
 PDF statistics:
- 102 PDF objects out of 1000 (max. 8388607)
- 68 compressed objects within 1 object stream
+ 110 PDF objects out of 1000 (max. 8388607)
+ 73 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 38 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 43 words of extra memory for PDF output out of 10000 (max. 10000000)
 
