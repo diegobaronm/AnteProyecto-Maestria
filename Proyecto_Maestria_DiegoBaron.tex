@@ -253,7 +253,7 @@ Hace 20 años algunas propuestas a candidatos de materia oscura incluían los MA
 Los candidatos más populares actualmente son los WIMPS (Weakly Interacting Massive ParticleS) y los Axiones. Ambas son partículas que surgen como propuesta de solución a otros problemas en física de partículas: Supersimetría (SUSY) \cite{SUSY} y simetría Carga-Paridad en interacciones fuertes (Strong CP) \cite{StrongCP}, respectivamente, y por esto son tan populares. Se sabe que la materia oscura no puede ser caliente, es decir, tener velocidades relativistas, debido a que esto implicaría que el universo debería ser más homogéneo de lo que es. Y tampoco puede interactuar eléctricamente, ya que interaccionaría con el gas interestelar. 
 \\
 \\
-El HLT path que queremos proponer responde a una necesidad específica: búsqueda de señales de nueva física en modelos del tipo \textit{Singlet-Doublet Fermion Dark Matter} (SDFDM)\cite{1475-7516-2016-03-048}. Uno de los posibles procesos en este tipo de modelos se puede ver en la figura 5. Este proceso tiene en los estados finales: jets , un par de muones y partículas de materia oscura que escaparían del detector y por tanto se verían como energía transversa faltante (MET). Adicionalmente, si la masas de los fermiones $f$ y $\chi$ están muy degeneradas (tienen valores cercanos), los muones tendrán poco momento lineal y por tanto bajo $p_T$. Este tipo de señal es conocida como Fermiones Vectoriales (VLF) de espectro comprimido (CS). En este caso debido al bajo $p_T$ de los muones se espera que uno de ellos no sea reconstruído debido a la eficiencia del detector para detectar muones de bajo momento transversal \cite{Chatrchyan:2012xi}. Así el HLT path debe ser diseñado para detectar: un solo muón con bajo $p_T$ y además que la MET asociada a los objetos reconstruídos en el evento sea pequeña.
+El HLT path que queremos proponer responde a una necesidad específica: búsqueda de señales de nueva física en modelos del tipo \textit{Singlet-Doublet Fermion Dark Matter} (SDFDM)\cite{1475-7516-2016-03-048}. Uno de los posibles procesos en este tipo de modelos se puede ver en la figura 5. Este proceso tiene en los estados finales: jets , un par de muones y partículas de materia oscura que escaparían del detector y por tanto se verían como energía transversa faltante (MET). Adicionalmente, si la masas de los fermiones $f$ y $\chi$ están muy degeneradas (tienen valores cercanos), los muones tendrán poco momento lineal y por tanto bajo $p_T$. Este tipo de señal es conocida como Fermiones Vectoriales (VLF) de espectro comprimido (CS). En este caso debido al bajo $p_T$ de los muones se espera que uno de ellos no sea reconstruído debido a la eficiencia del detector para detectar muones de bajo momento transversal \cite{Chatrchyan:2012xi}. Así el HLT path debe ser diseñado para detectar: un solo muón con bajo $p_T$ y además que la MET asociada a los objetos reconstruídos en el evento sea pequeña. En específico, otra variable que sería interesante restringir basados en esta condición (MET bajo), es la energía transversa hadrónica faltante (MHT). El MHT es la MET asociada a los objetos reconstruídos como hadrones (jets).
 \begin{figure}
  	\centering
  	\includegraphics[width=13cm]{F6.png}
@@ -263,7 +263,7 @@ El HLT path que queremos proponer responde a una necesidad específica: búsqued
 \newpage
 \section{Problema y pregunta de investigación}
 
-	Conforme a lo establecido en las secciones anteriores, podemos ver que el problema de encontrar la materia oscura debe resolverse, en parte, mediante la busqueda de la misma en colisionadores. Ya hemos visto que modelos como \cite{1475-7516-2016-03-048} motivan busquedas en experimentos como LHC, sin embargo, debido a la cantidad de datos que toman detectores como CMS se deben idear filtros que nos dejen con la información que consideramos relevante a la hora de realizar las búsquedas. Por tanto nuestra idea es responder: \textbf{¿Qué Hight Level Trigger para el experimento CMS del CERN con muones de bajo $p_T$ (monento transverso) es pertinente para su uso en el estudio de señales de materia oscura en el detector?}
+	Conforme a lo establecido en las secciones anteriores, podemos ver que el problema de encontrar la materia oscura debe resolverse, en parte, mediante la busqueda de la misma en colisionadores. Ya hemos visto que modelos como \cite{1475-7516-2016-03-048} motivan busquedas en aceleradores como LHC. Sin embargo, debido a la cantidad de datos que toman detectores como CMS se deben idear filtros que nos dejen con la información que consideramos relevante a la hora de realizar las búsquedas. Por tanto, nuestra idea es responder: \textbf{Dado que modelos como SDFDM, motivan la busqueda de DM en CMS. ¿Se puede proponer un Hight Level Trigger para el experimento CMS del CERN con las siguientes características: un solo muón de bajo $p_T$ y eventos con baja MET y MHT?}
 
 
 \newpage
@@ -272,7 +272,7 @@ El HLT path que queremos proponer responde a una necesidad específica: búsqued
 
 \subsection{Objetivo general}
 
-Desarrollar y validar un path Hight Level Trigger (HLT) para el experimento CMS del CERN pertinente para su uso en el estudio de señales de materia oscura con muones de bajo $p_T$ en el detector.
+Desarrollar y validar un path Hight Level Trigger (HLT) para el experimento CMS del CERN pertinente para su uso en el estudio de señales de materia oscura con: un solo muón de bajo $p_T$ y eventos con poca MET y MHT en el detector.
 
 \subsection{Objetivos específicos}
 
@@ -295,7 +295,7 @@ Desarrollar y validar un path Hight Level Trigger (HLT) para el experimento CMS 
 		Trimestre                              & 2017-3 & 2017-4 & 2018-1 & 2018-2 & 2018-3 & 2018-4 & 2019-1 & 2019-2 \\ \hline
 		Revisión de bibliografía.              & *      & *      & *      & *      & *      & *      & *      &        \\ \hline
 		Estudio herramienta HLT de CMS.        &        & *      & *      & *      &        &        &        &        \\ \hline
-		Estudio fenomenológico.                &        &        & *      & *      &        &        &        &        \\ \hline
+		Estudio modelo SDFDM.                &        &        & *      & *      &        &        &        &        \\ \hline
 		Construcción del HLT                   &        &        &        & *      & *      & *      &        &        \\ \hline
 		Estudio de eficiencia.                 &        &        &        &        & *      & *      &        &        \\ \hline
 		Aplicar el HLT a un modelo específico. &        &        &        &        &        & *      & *      &        \\ \hline
@@ -305,11 +305,11 @@ Desarrollar y validar un path Hight Level Trigger (HLT) para el experimento CMS 
 \end{table}
 \newpage
 
-\section{Infraestructura y recursos.}
+\section{Infraestructura y recursos}
 
 \textbf{Recursos computacionales.}
 
-Para utilizar las herramientas de simulación de eventos como MADGRAPH, PYTHIA y DELPHES se necesita acceso a un cluster computacional de mediana capacidad	 50 núcleos y 1 TB de almacenamiento. Para el procesamiento de datos provenientes de LHC se necesita acceso a la red computucional de CERN (grid) y esto solo es posible si se es miembro.
+Para utilizar las herramientas de simulación de eventos como MADGRAPH \cite{Alwall:2014hca}, PYTHIA \cite{Sjostrand:2014zea} y DELPHES \cite{deFavereau:2013fsa} se necesita acceso a un cluster computacional de mediana capacidad	 50 núcleos y 1 TB de almacenamiento. Para el procesamiento de datos provenientes de LHC se necesita acceso a la red computucional del CERN (grid) y esto sólo es posible si se es miembro. En este caso, la Universidad de Antioquia inició en 2016 una colaboración con el experimento CMS y tanto el estudiante, como el asesor y coasesor son miembros del experimento con acceso a los recursos computacionales.
 
 \newpage
 
