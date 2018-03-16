@@ -62,7 +62,7 @@
 %----------------------------------------------------------------------------------------
 
 \HRule \\[0.4cm]
-{ \huge \bfseries High Level Trigger studies for the detection of dark matter in models with vector like fermions using the CMS detector at the LHC}\\[0.4cm] % Title of your document
+{ \huge \bfseries Estudios de \textit{High Level Trigger} para la deteccion de materia oscura en modelos con fermiones vectoriales usando el detector CMS en el LHC}\\[0.4cm] % Title of your document
 \HRule \\[1.5cm]
  
 %----------------------------------------------------------------------------------------
@@ -116,7 +116,7 @@ Nelson Vanegas \textsc{} % Supervisor's Name
 \section{Generalidades del proyecto}
 
 \textbf{Título del proyecto:}\\
-High Level Trigger studies for the detection of dark matter in models with vector like fermions using the CMS detector at the LHC
+Estudios de \textit{High Level Trigger} para la deteccion de materia oscura en modelos con fermiones vectoriales usando el detector CMS en el LHC
 \\
 
 \textbf{Línea de investigación:}\\
@@ -124,7 +124,7 @@ Física de partículas experimental.
 \\
 
 \textbf{Duración:}\\
-Dos años.
+Tres semestres.
 \\
 
 \textbf{Lugar de ejecución:}\\
@@ -138,7 +138,7 @@ Universidad de Antioquia.
 \\
 
 \textbf{Resumen ejecutivo:}\\
-En este trabajo se presenta la propuesta de investigación del estudiante de maestría Diego Alberto Barón Moreno. Desde 1930, gracias a las observaciones de las curvas de rotación de las estrellas en las galaxias, se plantea la existencia de la materia oscura. En un acelerador de partículas como el Gran Colisionador de Hadrones (LHC) se colisionan haces de protones e iones de plomo y en estas colisiones, en principio, se pueden generar las partículas que constituyen la materia oscura en el universo. Sin embargo, debido a la gran cantidad de datos que toman los detectores del LHC, como el Solenoide Compacto de Muones (CMS)\cite{Bayatian:2006nff}, se deben aplicar filtros para aislar los eventos interesantes. En este trabajo proponemos desarrollar un filtro de eventos de alto nivel (en inglés path High Level Trigger), es decir: una serie de algoritmos de selección de eventos, que se ejecutan luego de la obtención de datos en el detector CMS. El objetivo es que este path High Level Trigger (HLT path) sea adecuado para la búsqueda de materia osucura (DM) en el detector CMS en el LHC.
+En este trabajo se presenta la propuesta de investigación del estudiante de maestría Diego Alberto Barón Moreno. Desde 1930, gracias a las observaciones de las curvas de rotación de las estrellas en las galaxias, se plantea la existencia de la materia oscura. En un acelerador de partículas como el Gran Colisionador de Hadrones (LHC) se colisionan haces de protones e iones de plomo y en estas colisiones, en principio, se pueden generar las partículas que constituyen la materia oscura en el universo. Sin embargo, debido a la gran cantidad de datos que toman los detectores del LHC, como el Solenoide Compacto de Muones (CMS)\cite{Bayatian:2006nff}, se deben aplicar filtros para aislar los eventos interesantes. En este trabajo proponemos desarrollar un filtro de eventos de alto nivel (en inglés \textit{path High Level Trigger}), es decir: una serie de algoritmos de selección de eventos, que se ejecutan luego de la obtención de datos en el detector CMS. El objetivo es que este \textit{path High Level Trigger (HLT path)} sea adecuado para la búsqueda de materia osucura (DM) en el detector CMS en el LHC.
 
 
 \newpage
@@ -175,7 +175,7 @@ El problema de la materia oscura (DM) es el problema más viejo de la física de
 \includegraphics[width=12cm]{F1.png}
 \caption{\label{fig:frog} Curva de rotación galáctica para NGC 6503, vemos el perfil de masa del disco y del gas. Ademñás se ve el perfil de materia oscura necesario para ajustar las observaciones. Tomado de \cite{Freese:2017idy}.}
 \end{figure}
-A continuación vamos a describir los componentes fundamentales del detector CMS en el LHC, poniendo especial atención en el sitema High Level Trigger.
+A continuación vamos a describir los componentes fundamentales del detector CMS en el LHC, poniendo especial atención en el sitema \textit{High Level Trigger}.
 
 
 \label{sec:examples}
@@ -210,50 +210,50 @@ En física de partículas experimental es usual trabajar con invariantes relativ
 Si $\vec{p}$ es el momento y $E$ la energía de una partícula se define: $p_L$ (momento longitudinal), como la proyección del momento en direccion de Z. Además, se define la distancia radial en el plano x-y, el plano transversal al haz, donde se llama a la proyeccioón del momento lineal de la partícula en esta dirección momento transverso ($p_T$).  
 \\
 \\
-El solenoide superconductor del experimento CMS tiene 13 m de largo y 6 m de diametro. Es capaz de generar un campo magnético uniforme de 4 T en su interior y está construido por 4 capas de espiras de Niobio-Titanio (NbTi), enfriado a una temoperatura de 4.45K, esto último para que se alcance el estado superconductor. Este solenoide superconductor está rodeado por 5 barriles y 3 discos de hierro, que tienen el objetivo de devolver el campo magnético generando un campo exterior de 2 T.  Esta configuración de campos magnéticos es responsable de curvar las trayectorias de las partículas cargadas.
+El solenoide superconductor del experimento CMS tiene 13 m de largo y 6 m de diametro. Es capaz de generar un campo magnético uniforme de 4 T en su interior y está construido por 4 capas de espiras de Niobio-Titanio (NbTi), enfriado a una temoperatura de 4.45K, esto para que se alcance el estado superconductor del material. Este solenoide superconductor está rodeado por 5 barriles y 3 discos de hierro, que tienen el objetivo de devolver el campo magnético generando un campo exterior de 2 T.  Esta configuración de campos magnéticos es responsable de curvar las trayectorias de las partículas cargadas.
 \\
 \\
-Dentro del solenoide se encuentra el sistema de reconstrucción de trazas (Tracker System), un sistema de detección diseñado con dos tecnologías: pixeles y tiras de silicio. El tracker system está diseñado para identificar los vértices de las colisiones con una precisión de 9 $\mu$m y una eficiencia del 98\%, esta eficiencia se degrada con el tiempo debido a los daños por radiación que sufren los materiales. Cuando una partícula cargada pasa por este sistema, se crean pares electrón-hueco en el material y esto genera una señal eléctrica que luego es amplificada. Este sistema fue construido para ser bastante resistente a la radiación y se espera que dure 10 años.
+Dentro del solenoide se encuentra el sistema de reconstrucción de trazas (\textit{Tracker System}), un sistema de detección diseñado con dos tecnologías: pixeles y tiras de silicio. El \textit{tracker system} está diseñado para identificar los vértices de las colisiones con una precisión de 9 $\mu$m y una eficiencia del 98\%, esta eficiencia se degrada con el tiempo debido a los daños por radiación que sufren los materiales. Cuando una partícula cargada pasa por este sistema, se crean pares electrón-hueco en el material y esto genera una señal eléctrica que luego es amplificada. Este sistema fue construido para ser bastante resistente a la radiación y se espera que dure 10 años.
 \\
 \\
 Luego de este sistema se encuentra el calorímetro electromagnético (ECAL). Este fue construido para detener electrones y fotones y medir su energía; el sistema está compuesto por cristales de tungstato de plomo, el cual fue escogido por su corta profundidad de radiación, alta densidad y rápido centelleo (25 ns). La única desventaja de este material es su alta sensibilidad de respuesta a la temperatura (2\%/C). Los cristales van perdiendo transparencia con la luminosidad integrada (que es la razón entre la cantidad de eventos o colisiones que se han dado en el LHC y la sección eficaz de colisión para los protones\cite{RuizAlvarez:2016mhn}). Por tanto, la transparencia de los cristales tiene que ser corregida constantemente por un sistema de láser. El ECAL cuenta con 61200 cristales en el barril y 7324 en las tapas del calorímetro.
 \\
 \\
-Cuando se colisionan dos partículas constituidas por quarks (hadrones), como los protones en el caso del LHC, se pueden generar quarks en los estados finales de la colisión. Sin embargo, debido al confinamiento del color estos quarks empiezan a agruparse y a formar de nuevo hadrones. Esto puede suceder iterativamente generando ``lluvias de hadrones'' o tambien llamados jets.
+Cuando se colisionan dos partículas constituidas por quarks (hadrones), como los protones en el caso del LHC, se pueden generar quarks en los estados finales de la colisión. Sin embargo, debido al confinamiento del color estos quarks empiezan a agruparse y a formar de nuevo hadrones, este proceso se conoce como hadronización. Esto puede suceder iterativamente generando ``lluvias de hadrones'' o tambien llamados jets.
 \\
 \\
-Para detener y detectar los jets hadrónicos se diseñó el calorímetro hadrónico (HCAL), cierta parte de este sistema se encuentra dentro del solenoide (Hadron Endcap Calorimeter y Hadron Barrel Calorimeter) y fuera están el Outer Calorimeter y el Hadron Forward Calorimeter (estos permiten extender el rango angular de detección). Los calorímetros tienen el objetivo de detectar los hadrones y lo hacen de la siguiente manera: el sistema tiene intercalados placas de acero con cristales centelladores, las placas de acero generan las cascadas de hadrones y cuando estos pasan por los centelladores, la luz generada es convertida en corrientes eléctricas por fotodiodos híbridos (HPDs). Estas corrientes permiten medir la energía de los hadrones. Es importante mencionar que debido a la posición del Forward Calorimeter, este recibe más radiación comparado con los otros calorímetros hadrónicos. Esto es debido a que el Forward Calorimeter está en la dirección del haz incidente, por tanto, los centelladores fueron construidos de un material más resistente a la radiación como lo es el cuarzo.
+Para detener y detectar los jets hadrónicos se diseñó el calorímetro hadrónico (HCAL), cierta parte de este sistema se encuentra dentro del solenoide (\textit{Hadron Endcap Calorimeter} y \textit{Hadron Barrel Calorimeter}) y fuera están el \textit{Outer Calorimeter} y el \textit{Hadron Forward Calorimeter} (estos permiten extender el rango angular de detección). Los calorímetros tienen el objetivo de detectar los hadrones y lo hacen de la siguiente manera: el sistema tiene intercalados placas de acero con cristales centelladores, las placas de acero generan las cascadas de hadrones y cuando estos pasan por los centelladores, la luz generada es convertida en corrientes eléctricas por fotodiodos híbridos (HPDs). Estas corrientes permiten medir la energía de los hadrones. Es importante mencionar que debido a la posición del \textit{Forward Calorimeter}, este recibe más radiación comparado con los otros calorímetros hadrónicos. Esto es debido a que el \textit{Forward Calorimeter} está en la dirección del haz incidente, por tanto, los centelladores fueron construidos de un material más resistente a la radiación como lo es el cuarzo.
 \\
 \\
-Finalmente en la parte más externa del detector están ubicados los detectores de muones, esto se debe a que estas partículas tienen un gran poder de penetración. Las cámaras de detección están hechas de 3 tecnologías diferentes: Drift Tube Chambers (DT), Cathode Strip Chambers(CSC) y Resistive Plate Chambers (RPC). Las tres están basadas en la detección por ionización de gases: al paso de partículas cargadas se generan corrientes de deriva. En la figura 3 se muestra una recreación a un corte transversal del detector.
+Finalmente en la parte más externa del detector están ubicados los detectores de muones, esto se debe a que estas partículas tienen un gran poder de penetración. Las cámaras de detección de muones están hechas de 3 tecnologías diferentes: \textit{Drift Tube Chambers (DT), Cathode Strip Chambers(CSC)} y \textit{Resistive Plate Chambers (RPC)}	. Las tres están basadas en la detección por ionización de gases: al paso de partículas cargadas se generan corrientes de deriva. En la figura 3 se muestra una recreación a un corte transversal del detector.
 \begin{figure}
 \centering
 \includegraphics[width=15cm]{F3.png}
 \caption{\label{fig:frog} Corte transversal del detector CMS \cite{Bayatian:2006nff}.}
 \end{figure}
 
-\subsection{Sistema de Trigger}
+\subsection{Sistema de \textit{Trigger}}
 
-CMS fue diseñado para tomar los datos de cada colisión que ocurre	, cada una está separada en el tiempo por 25 ns, esto produce un flujo de datos de 1 PB/s (PB=Petabyte). Por tanto, debe hacerse una selección de eventos en tiempo real, el sistema encargado de hacer esto recibe el nombre de Trigger System y lleva a cabo esta tarea en dos fases \cite{CMSTrigger}. 
+CMS fue diseñado para tomar los datos de cada colisión que ocurre	, cada una está separada en el tiempo por 25 ns, esto produce un flujo de datos de 1 PB/s (PB=Petabyte). Por tanto, debe hacerse una selección de eventos en tiempo real, el sistema encargado de hacer esto recibe el nombre de \textit{Trigger System} y lleva a cabo esta tarea en dos fases \cite{CMSTrigger}. 
 \\
 \\
-La primera de fase es el Level 1 Trigger (L1), este es un proceso basado en Hardware construido específicamente para analizar los datos provenientes de los sistemas de detección y escoger los eventos más interesantes: aquellos que contienen partículas con gran momento transverso o por ejemplo con combinaciones raras de estados finales. Este filtro reduce el flujo de datos en dos ordenes de magnitud y dispone de 3.2 $\mu$s para decidir, esto hace que la memoria de almacenamiento tenga que ser suficiente para guardar los datos de 128  colisiones.
+La primera de fase es el \textit{Level 1 Trigger (L1)}, este es un proceso basado en Hardware construido específicamente para analizar los datos provenientes de los sistemas de detección y escoger los eventos más interesantes: aquellos que contienen partículas con gran momento transverso o por ejemplo con combinaciones raras de estados finales. Este filtro reduce el flujo de datos en dos ordenes de magnitud y dispone de 3.2 $\mu$s para decidir, esto hace que la memoria de almacenamiento tenga que ser suficiente para guardar los datos de 128  colisiones.
 \\
 \\
-La segunda fase de la selección se conoce como High Level Trigger (HLT). Es un proceso basado en software: una serie de algoritmos corren en granjas de varios miles de procesadores, estos códigos han sido previamente implementados con el objetivo de realizar búsquedas predeterminadas y analizan los datos que pasan el L1. El tiempo de decisión de este sistema es de aproximadamente 100 ms y al finalizar la selección, el flujo original de datos ha sido reducido por un factor de cinco ordenes de magnitud.
+La segunda fase de la selección se conoce como \textit{High Level Trigger (HLT)}. Es un proceso basado en software: una serie de algoritmos corren en granjas de varios miles de procesadores, estos códigos han sido previamente implementados con el objetivo de realizar búsquedas predeterminadas y analizan los datos que pasan el L1. El tiempo de decisión de este sistema es de aproximadamente 100 ms y al finalizar la selección, el flujo original de datos ha sido reducido por un factor de cinco ordenes de magnitud.
 
 \subsection{Materia oscura en colisionadores.}
 
 El modelo estándar de la cosmología predice que sólo conocemos como se comporta el 5\% del contenido de materia del universo (materia bariónica), el restante 95\% se cree es: materia oscura (26\%) y energía oscura (69\%) \cite{Ade:2015xua}. Las evidencias indirectas de la existencia de materia oscura son variadas y contundentes: lentes gravitacionales, el cúmulo bala, la radiación cósmica de fondo y la estababilidad del gas caliente en clusters de galaxias son algunas de ellas \cite{Freese:2017idy}. 
 \\
 \\
-Hace 20 años algunas propuestas a candidatos de materia oscura incluían los MACHOS (MAssive Compact Halo ObjectS), que consisten de objetos astrofísicos muy tenues para ser detectados, por ejemplo: agujeros negros, estrellas de neutrones, enanas blancas, etc. Sin embargo, experimentos recientes descartan esta posibilidad y por tanto nos dejan solo con los candidatos no bariónicos como posibles explicaciones \cite{Freese:1999ge,Fields:1999ar}.
+Hace 20 años algunas propuestas a candidatos de materia oscura incluían los MACHOS (\textit{MAssive Compact Halo ObjectS}), que consisten de objetos astrofísicos muy tenues para ser detectados, por ejemplo: agujeros negros, estrellas de neutrones, enanas blancas, etc. Sin embargo, experimentos recientes descartan esta posibilidad y por tanto nos dejan solo con los candidatos no bariónicos como posibles explicaciones \cite{Freese:1999ge,Fields:1999ar}.
 \\
 \\
-Los candidatos más populares actualmente son los WIMPS (Weakly Interacting Massive ParticleS) y los Axiones. Ambas son partículas que surgen como propuesta de solución a otros problemas en física de partículas: Supersimetría (SUSY) \cite{SUSY} y simetría Carga-Paridad en interacciones fuertes (Strong CP) \cite{StrongCP}, respectivamente, y por esto son tan populares. Se sabe que la materia oscura no puede ser caliente, es decir, tener velocidades relativistas, debido a que esto implicaría que el universo debería ser más homogéneo de lo que es. Y tampoco puede interactuar eléctricamente, ya que interaccionaría con el gas interestelar. 
+Los candidatos más populares actualmente son los WIMPS (\textit{Weakly Interacting Massive ParticleS}) y los Axiones. Ambas son partículas que surgen como propuesta de solución a otros problemas en física de partículas: Supersimetría (SUSY) \cite{SUSY} y simetría Carga-Paridad en interacciones fuertes (\textit{Strong CP}) \cite{StrongCP}, respectivamente, y por esto son tan populares. Se sabe que la materia oscura no puede ser caliente, es decir, tener velocidades relativistas, debido a que esto implicaría que el universo debería ser más homogéneo de lo que es. Y tampoco puede interactuar eléctricamente, ya que interaccionaría con el gas interestelar. 
 \\
 \\
-El HLT path que queremos proponer responde a una necesidad específica: búsqueda de señales de nueva física en modelos del tipo \textit{Singlet-Doublet Fermion Dark Matter} (SDFDM)\cite{1475-7516-2016-03-048}. Uno de los posibles procesos en este tipo de modelos se puede ver en la figura 5. Este proceso tiene en los estados finales: jets , un par de muones y partículas de materia oscura que escaparían del detector y por tanto se verían como energía transversa faltante (MET). Adicionalmente, si la masas de los fermiones $f$ y $\chi$ están muy degeneradas (tienen valores cercanos), los muones tendrán poco momento lineal y por tanto bajo $p_T$. Este tipo de señal es conocida como Fermiones Vectoriales (VLF) de espectro comprimido (CS). En este caso debido al bajo $p_T$ de los muones se espera que uno de ellos no sea reconstruído debido a la eficiencia del detector para detectar muones de bajo momento transversal \cite{Chatrchyan:2012xi}. Así el HLT path debe ser diseñado para detectar: un solo muón con bajo $p_T$ y además que la MET asociada a los objetos reconstruídos en el evento sea pequeña. En específico, una variable que sería interesante restringir basados en esta condición (MET bajo), es la energía transversa hadrónica faltante (MHT). El MHT es la MET asociada a los objetos reconstruídos como hadrones (jets).
+El HLT path que queremos proponer responde a una necesidad específica: búsqueda de señales de nueva física en modelos del tipo \textit{Singlet-Doublet Fermion Dark Matter} (SDFDM)\cite{1475-7516-2016-03-048}. Uno de los posibles procesos en este tipo de modelos se puede ver en la figura 5. Este proceso tiene en los estados finales: jets , un par de muones y partículas de materia oscura que escaparían del detector y por tanto se verían como energía transversa faltante (MET). Adicionalmente, si la masas de los fermiones $f$ y $\chi$ tienen valores cercanos, los muones tendrán poco momento lineal y por tanto bajo $p_T$. Este tipo de señal es conocida como Fermiones Vectoriales (VLF) de espectro comprimido (CS). En este caso debido al bajo $p_T$ de los muones se espera que uno de ellos no sea reconstruído debido a la eficiencia del detector para detectar muones de bajo momento transversal \cite{Chatrchyan:2012xi}. Así el HLT path debe ser diseñado para detectar: un solo muón con bajo $p_T$ y además que la MET asociada a los objetos reconstruídos en el evento sea pequeña. En específico, una variable que sería interesante restringir basados en esta condición (MET bajo), es la energía transversa hadrónica faltante (MHT). El MHT es la MET asociada a los objetos reconstruídos como hadrones (jets).
 \begin{figure}
  	\centering
  	\includegraphics[width=13cm]{F6.png}
@@ -263,7 +263,7 @@ El HLT path que queremos proponer responde a una necesidad específica: búsqued
 \newpage
 \section{Problema y pregunta de investigación}
 
-	Conforme a lo establecido en las secciones anteriores, podemos ver que el problema de encontrar la materia oscura debe resolverse, en parte, mediante la busqueda de la misma en colisionadores. Ya hemos visto que modelos como \cite{1475-7516-2016-03-048} motivan busquedas en aceleradores como LHC. Sin embargo, debido a la cantidad de datos que toman detectores como CMS se deben idear filtros que nos dejen con la información que consideramos relevante a la hora de realizar las búsquedas. Por tanto, nuestra idea es responder: \textbf{Dado que modelos como SDFDM, motivan la busqueda de DM en CMS. ¿Se puede proponer un Hight Level Trigger para el experimento CMS del CERN con las siguientes características: un solo muón de bajo $p_T$ y eventos con baja MET y MHT?}
+	Conforme a lo establecido en las secciones anteriores, podemos ver que el problema de encontrar la materia oscura puede resolverse, al menos parcialmente, mediante la busqueda de la misma en colisionadores. Inclusive, si no se encuentra ninguna señal en los experimentos, estos sirven para establecer límites en las masas, constantes de acople y demás parámetros en los modelos. Ya hemos visto que modelos como \cite{1475-7516-2016-03-048} motivan busquedas en aceleradores como LHC. Sin embargo, debido a la cantidad de datos que toman detectores como CMS se deben idear filtros que nos dejen con la información que consideramos relevante a la hora de realizar las búsquedas. Por tanto, nuestra idea es responder: \textbf{Dado que modelos como SDFDM, motivan la busqueda de DM en CMS. ¿Se puede proponer un \textit{Hight Level Trigger path} para el experimento CMS del CERN con las siguientes características: un solo muón de bajo $p_T$ y eventos con baja MET y MHT?}
 
 
 \newpage
@@ -272,12 +272,12 @@ El HLT path que queremos proponer responde a una necesidad específica: búsqued
 
 \subsection{Objetivo general}
 
-Desarrollar y validar un path Hight Level Trigger (HLT) para el experimento CMS del CERN pertinente para su uso en el estudio de señales de materia oscura con: un solo muón de bajo $p_T$ y eventos con poca MET y MHT en el detector.
+Desarrollar y validar un \textit{path Hight Level Trigger (HLT)} para el experimento CMS del CERN pertinente para su uso en el estudio de señales de materia oscura con: un solo muón de bajo $p_T$ y eventos con poca MET y MHT en el detector.
 
 \subsection{Objetivos específicos}
 
 \begin{itemize}
-	\item Estudio del modelo que desea ponerse a prueba, estudiando la señal que quiere detectarse y sus backgrounds.
+	\item Estudio del modelo que desea ponerse a prueba, estudiando la señal que quiere detectarse y sus \textit{backgrounds}.
 	\item Construcción de un path del HLT usando la herramienta de CMS.
 	\item Estudiar la eficiencia y otras características de dicho path del HLT y proponerlo.
 	\item Aplicar el HLT al menos a un modelo específico, un ejemplo podría ser el modelo \cite{1475-7516-2016-03-048}.
@@ -290,16 +290,16 @@ Desarrollar y validar un path Hight Level Trigger (HLT) para el experimento CMS 
 	\centering
 	\resizebox{\textwidth}{!}{%
 	
-	\begin{tabular}{|c|c|c|c|c|c|c|c|c|}
+	\begin{tabular}{|c|c|c|c|c|c|c|}
 		\hline
-		Trimestre                              & 2017-3 & 2017-4 & 2018-1 & 2018-2 & 2018-3 & 2018-4 & 2019-1 & 2019-2 \\ \hline
-		Revisión de bibliografía.              & *      & *      & *      & *      & *      & *      & *      &        \\ \hline
-		Estudio herramienta HLT de CMS.        &        & *      & *      & *      &        &        &        &        \\ \hline
-		Estudio modelo SDFDM.                &        &        & *      & *      &        &        &        &        \\ \hline
-		Construcción del HLT                   &        &        &        & *      & *      & *      &        &        \\ \hline
-		Estudio de eficiencia.                 &        &        &        &        & *      & *      &        &        \\ \hline
-		Aplicar el HLT a un modelo específico. &        &        &        &        &        & *      & *      &        \\ \hline
-		Redacción tesis.                       &        &        &        &        &        &        & *      & *      \\ \hline
+		Trimestre                              & 2018-1 & 2018-2 & 2018-3 & 2018-4 & 2019-1 & 2019-2 \\ \hline
+		Revisión de bibliografía.              & *      & *      & *      & *      & *      &        \\ \hline
+		Estudio herramienta HLT de CMS.        & *      & *      &        &        &        &        \\ \hline
+		Estudio modelo SDFDM.                  & *      & *      &        &        &        &        \\ \hline
+		Construcción del HLT                   &        & *      & *      & *      &        &        \\ \hline
+		Estudio de eficiencia.                 &        &        & *      & *      &        &        \\ \hline
+		Aplicar el HLT a un modelo específico. &        &        &        & *      & *      &        \\ \hline
+		Redacción tesis.                       &        &        &        &        & *      & *      \\ \hline
 	\end{tabular}
 }
 \end{table}
