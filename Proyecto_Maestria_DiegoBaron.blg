@@ -4,36 +4,37 @@ The top-level auxiliary file: Proyecto_Maestria_DiegoBaron.aux
 The style file: ieeetr.bst
 Database file #1: biblibo.bib
 Warning--empty journal in Bayatian:2006nff
-You've used 19 entries,
+Warning--empty journal in Bruning:2004ej
+You've used 20 entries,
             1876 wiz_defined-function locations,
-            608 strings with 7060 characters,
-and the built_in function-call counts, 5023 in all, are:
-= -- 491
-> -- 216
+            613 strings with 7247 characters,
+and the built_in function-call counts, 5236 in all, are:
+= -- 502
+> -- 239
 < -- 0
-+ -- 80
-- -- 61
-* -- 315
-:= -- 723
-add.period$ -- 21
-call.type$ -- 19
-change.case$ -- 18
++ -- 88
+- -- 68
+* -- 335
+:= -- 762
+add.period$ -- 22
+call.type$ -- 20
+change.case$ -- 19
 chr.to.int$ -- 0
-cite$ -- 20
-duplicate$ -- 297
-empty$ -- 434
-format.name$ -- 61
-if$ -- 1257
+cite$ -- 22
+duplicate$ -- 306
+empty$ -- 451
+format.name$ -- 68
+if$ -- 1301
 int.to.chr$ -- 0
-int.to.str$ -- 19
-missing$ -- 18
-newline$ -- 62
-num.names$ -- 19
-pop$ -- 52
+int.to.str$ -- 20
+missing$ -- 19
+newline$ -- 65
+num.names$ -- 20
+pop$ -- 58
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 223
+skip$ -- 224
 stack$ -- 0
 substring$ -- 219
 swap$ -- 146
@@ -41,8 +42,8 @@ text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 1
-while$ -- 39
-width$ -- 21
-write$ -- 190
-(There was 1 warning)
+warning$ -- 2
+while$ -- 40
+width$ -- 22
+write$ -- 197
+(There were 2 warnings)
